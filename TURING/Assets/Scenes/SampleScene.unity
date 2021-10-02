@@ -2031,7 +2031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fed9c6f5c06d5e44841604220d8683a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  twineText: {fileID: 4900000, guid: cfef2210bb16a2446be6ab50716e4b49, type: 3}
+  twineText: {fileID: 4900000, guid: 71f08094edf5a464e9ca9fcca0531e14, type: 3}
 --- !u!1 &1247058456
 GameObject:
   m_ObjectHideFlags: 0

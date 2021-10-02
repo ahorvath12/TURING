@@ -1,0 +1,198 @@
+:: StoryTitle
+Mohammed
+
+:: StoryData
+{
+ "ifid": "2A648B5F-3405-44BD-81C4-3595A547879A",
+ "format": "Entweedle",
+ "format-version": "1.1.1",
+ "startnode": "1",
+ "zoom": "1",
+ "start": "Untitled Passage"
+}
+
+:: UserScript [script]
+
+
+:: UserStylesheet [stylesheet]
+
+
+:: Untitled Passage [START] {"position":"859,384.5","size":"100,100"}
+Hello[[Hello]]
+
+:: Hello {"position":"864,532.5","size":"100,100"}
+Hi
+
+How are you?[[How are you]]
+How old are you?[[How old]]
+What's your job?[[Job]]
+
+:: How are you {"position":"864,687.5","size":"100,100"}
+Doing alright. Tired though.
+
+Me too.[[Also tired]]
+Sorry to hear that.[[Also tired]]
+Where do you live?[[Where live]]
+
+:: Also tired {"position":"864,836.5","size":"100,100"}
+How's your day been going?
+
+It's been good.[[Good day]]
+Not so good.[[Not good day]]
+Let's not talk about me.[[Change topic 2]]
+
+:: Good day {"position":"720,890.5","size":"100,100"}
+Ah. Anything exciting?
+
+Not really[[Not really]]
+None of your business[[None business]]
+Let's talk about something else.[[Change topic 2]]
+
+:: None business {"position":"702,1142.5","size":"100,100"}
+Um ok?
+
+What's your job?[[How old]]
+What do you like to do?[[Like to do?]]
+Where do you live?[[Where live]]
+
+:: How old {"position":"314,1171.5","size":"100,100"}
+22, why?
+
+Just wanted to know.[[Wanted to know]]
+No reason.[[None business]]
+Let's talk about something else.[[Change topic 2]]
+
+:: Wanted to know {"position":"930,1232.5","size":"100,100"}
+Just cuz?
+
+Let's change the topic. [[Change topic]]
+What's your favorite animal?[[Favorite animal]]
+Where do you live?[[Where live]]
+
+:: Change topic {"position":"644,1477.5","size":"100,100"}
+Sure.
+What do you want to discuss?
+
+What do you like to do?[[Like to do?]]
+Where do you live?[[Where live]]
+How are you?[[How are you 2]]
+
+:: Like to do? {"position":"898,1700.5","size":"100,100"}
+I like to draw and play games with friends.
+
+That's cool. What else?[[What else]]
+Let's talk about something else.[[Change topic]]
+What's your job?[[Job]]
+
+:: What else {"position":"790,1909.5","size":"100,100"}
+I like reading. Making games too when I have the time.
+
+Let's change the topic.[[Change topic 2]]
+What's your favorite animal?[[Favorite animal]]
+Where do you live?[[Where live]]
+
+:: Change topic 2 {"position":"1299,1760.5","size":"100,100"}
+Alright?
+
+What's your job?[[Job]]
+How old are you?[[How old]]
+Where do you live?[[Where live]]
+
+:: Job {"position":"1018,1984.5","size":"100,100"}
+I work IT.
+
+How are you?[[How are you 2]]
+What do you like to do?[[Like to do?]]
+Where do you live?[[Where live]]
+
+:: How are you 2 {"position":"1499,1978.5","size":"100,100"}
+Tired. This job is so draining.
+
+Sorry to hear that.[[Sorry to hear]]
+I feel the same.[[Not good day]]
+Let's talk about something else.[[Change topic]]
+
+:: Sorry to hear {"position":"1299,2242.5","size":"100,100"}
+Yeah it kinda sucks. But I'm glad I have the job.
+
+Where do you live?[[Where live]]
+What's your favorite animal?[[Favorite animal]]
+What do you like to do?[[Like to do?]]
+
+:: Where live {"position":"1046,2398.5","size":"100,100"}
+California.
+
+What's your favorite animal?[[Favorite animal]]
+What do you like to do?[[Like to do?]]
+How are you?[[How are you 2]]
+
+:: Favorite animal {"position":"1169,2567.5","size":"100,100"}
+That's a tough one. Probably an anglerfish.
+
+Mine too.[[Same animal]]
+I like different animals.[[Different animals]]
+Let's change the subject.[[Change topic 2]]
+
+:: Same animal {"position":"815,2528.5","size":"100,100"}
+It's just so cool how they're designed to be trapmakers.
+
+Let's talk about something else.[[Change topic 2]]
+How old are you?[[How old]]
+How are you?[[How are you 2]]
+
+:: Different animals {"position":"1328,2745.5","size":"100,100"}
+Like what?
+
+Too many to choose from.[[None business]]
+Let's not talk about me.[[Change topic]]
+None of your business.[[None business]]
+
+:: Not good day {"position":"1153,831.5","size":"100,100"}
+Oh? What's going on?
+
+I'm tired.[[Tired]]
+Let's change the topic.[[Change topic]]
+None of your business.[[None business]]
+
+:: Tired {"position":"1111,1024.5","size":"100,100"}
+Why's that?
+
+Life is keeping me busy.[[Life busy]]
+Lot's of stuff is happening.[[Life busy]]
+Let's talk about something else.[[Change topic]]
+
+:: Life busy {"position":"1239,1127.5","size":"100,100"}
+Ah. Yeah I feel that. Is it a job or something?
+
+Lot's of stuff.[[Lot's of stuff]]
+I don't want to get into it.[[Not get into it]]
+Let's talk about something else. [[Change topic]] 
+
+
+:: Lot's of stuff {"position":"1318,1320.5","size":"100,100"}
+Ah. Just today?
+
+Yes[[Not get into it]]
+No[[Not get into it]]
+Let's not get into it.[[Not get into it]]
+
+:: Not get into it {"position":"1676,1593.5","size":"100,100"}
+Ah ok. I hope things work out well.
+
+Thanks[[Thanks]]
+Me too.[[Also tired]]
+Let's talk about something else.[[Change topic]]
+
+:: Thanks {"position":"1434,1608.5","size":"100,100"}
+No problem.
+
+Where do you live?[[Where live]]
+What do you like to do?[[Like to do?]]
+How old are you?[[How old]]
+
+:: Not really {"position":"405,834.5","size":"100,100"}
+Oh. Low key day, then. Thats nice and relaxing.
+
+How old are you?[[How old]]
+What do you like to do?[[Like to do?]]
+Where do you live?[[Where live]]
