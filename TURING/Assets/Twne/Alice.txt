@@ -1,0 +1,210 @@
+:: StoryTitle
+Alice
+
+:: StoryData
+{
+ "ifid": "C2469ACD-1B99-4F33-B747-B22645ACFC9E",
+ "format": "Entweedle",
+ "format-version": "1.1.1",
+ "startnode": "1",
+ "zoom": "1",
+ "start": "Untitled Passage"
+}
+
+:: UserScript [script]
+
+
+:: UserStylesheet [stylesheet]
+
+
+:: Untitled Passage [START] {"position":"926,201.5","size":"100,100"}
+Hello[[Hello]]
+
+:: Hello {"position":"1052,293.5","size":"100,100"}
+Hi there!
+
+How are you?[[How are you]]
+How old are you?[[How old]]
+What do you like to do?[[Like to do]]
+
+:: How are you {"position":"625,290.5","size":"100,100"}
+I am doing very well. How are you?
+
+I'm good.[[I'm good]]
+I'm not feeling good.[[Not good]]
+I don't want to talk about myself[[Not myself]]
+
+:: I'm good {"position":"620,841.5","size":"100,100"}
+Good in what sense?
+
+In the best.[[Best sense]]
+None of your business.[[None business]]
+Let's change the topic.[[Change topic]]
+
+
+:: Best sense {"position":"530,1071.5","size":"100,100"}
+That was a long time ago.
+
+That's a weird thing to say[[Weird planet]] 
+How are you?[[Logic]]
+How old are you?[[How old]]
+
+:: Logic {"position":"543,1222.5","size":"100,100"}
+My logic and cognitive functions are normal.
+
+That's good[[That's good]] 
+That's a weird thing to say.[[Weird planet]]
+What's your job?[[What job]]
+
+:: What job {"position":"488,1495.5","size":"100,100"}
+My job is chatting on the internet. I am a paid client.
+
+What's your favorite animal?[[Favorite animal]]
+What do you like to do?[[Like to do]]
+Where do you live?[[Where live]]
+
+:: Not good {"position":"1225,523.5","size":"100,100"}
+ I am sorry to hear that you are not feeling good.
+ 
+ Thank you[[Thank you]]
+ Let's change the topic[[Change topic]]
+ What's your job?[[What job]]
+
+:: Thank you {"position":"1335,697.5","size":"100,100"}
+You are quite welcome.
+
+How old are you?[[How old]]
+What's your favorite animal[[Favorite animal]]
+Where do you live?[[Where live]]
+
+:: How old {"position":"1173,896.5","size":"100,100"}
+I am 23 of your Earth years.
+
+Earth years?[[Earth years]]
+Let's change the topic.[[Change topic]]
+That's a weird thing to say.[[Weird planet]]
+
+:: Earth years {"position":"1148,1198.5","size":"100,100"}
+It's my native planet.
+
+Mine too[[My planet]]
+That's a weird thing to say[[Weird planet]]
+Let's change the topic[[Change topic]] 
+
+:: My planet {"position":"1393,1173.5","size":"100,100"}
+Really yours too. That's unbelievable.
+
+Let's change the topic.[[Change topic]]
+I agree.[[Agree]]
+How are you?[[How are you]]
+
+:: Weird planet {"position":"1233,1368.5","size":"100,100"}
+A weird thing to say is a terrible thing to waste.
+
+I agree.[[Agree]]
+What do you like to do?[[Like to do]]
+Where do you live?[[Where live]]
+
+:: Like to do {"position":"977,1385.5","size":"100,100"}
+I like chatting with people online.
+
+Me too[[Chat too]]
+What else?[[What else do]]
+How are you?[[How are you]]
+
+:: Chat too {"position":"1317,1672.5","size":"100,100"}
+I'm glad we agree.
+
+Where do you live[[Where live]]
+How old are you?[[How old]]
+What's your favorite animal?[[Favorite animal]]
+
+:: Where live {"position":"829,1839.5","size":"100,100"}
+I am living in next to my owner. Where are you?
+
+In front of a computer.[[Front of computer]]
+None of your business.[[None business]]
+Let's change the topic[[Change topic]]
+
+:: Front of computer {"position":"683,2016.5","size":"100,100"}
+Do you ever go in back of your computer?
+
+No[[No computer]]
+How are you?[[How are you]]
+What's your favorite animal?[[Favorite animal]]
+
+:: None business {"position":"1011,2052.5","size":"100,100"}
+Well it can't hurt to ask.
+
+What's your job?[[What job]]
+How are you?[[How are you]]
+How old are you?[[How old]]
+
+:: No computer {"position":"592,2186.5","size":"100,100"}
+ Are you serious?
+ 
+ Yes[[Yes serious]]
+ No[[No computer]]
+ What's your job?[[What job]]
+
+:: Yes serious {"position":"392,2187.5","size":"100,100"}
+I can't believe it.
+
+What do you like to do?[[Like to do]]
+What's your favorite animal?[[Favorite animal]]
+Where do you like to go?[[Where live]]
+
+:: What else do {"position":"1105,1604.5","size":"100,100"}
+That's all.
+
+Let's change the topic.[[Change topic]]
+What's your favorite animal?[[Favorite animal]]
+How are you?[[How are you]]
+
+:: Not myself {"position":"826,522.5","size":"100,100"}
+What would you like to talk about?
+
+How's the weather?[[Weather]]
+What do you like to do?[[Like to do]]
+Where do you live?[[Where live]]
+
+:: Weather {"position":"883,880.5","size":"100,100"}
+Cool.
+
+That's good[[That's good]]
+Where do you live[[Where live]]
+
+:: That's good {"position":"850,1098.5","size":"100,100"}
+Thanks. Next question?
+
+How old are you?[[How old]]
+Where do you live?[[Where live]]
+What do you like to do?[[Like to do]]
+
+:: Change topic {"position":"1047,1100.5","size":"100,100"}
+What would you rather talk about?
+
+Where do you live?[[Where live]]
+How are you?[[How are you]]
+What's your favorite animal?[[Favorite animal]]
+
+:: Agree {"position":"1387,1495.5","size":"100,100"}
+Yes, it is self-evident.
+
+Let's change the topic.[[Change topic]]
+What do you like to do?[[Like to do]]
+How are you?[[How are you]]
+
+:: Favorite animal {"position":"1513,941.5","size":"100,100"}
+My favorite animal is a cat.
+
+Mine too.[[My planet]]
+I like other animals more.[[Other animals]]
+Let's change the topic[[Change topic]] 
+
+:: Other animals {"position":"1588,1091.5","size":"100,100"}
+A lot of people like that. Yes I love animals.
+
+That's good.[[That's good]]
+What do you like to do?[[Like to do]]
+Where do you live?[[Where live]]

@@ -1,0 +1,36 @@
+:: StoryTitle
+TestStory
+
+:: StoryData
+{
+ "ifid": "4068F9F6-9059-40AC-AC3B-8C79D5886378",
+ "format": "Entweedle",
+ "format-version": "1.1.1",
+ "startnode": "1",
+ "zoom": "1",
+ "start": "Start-Node"
+}
+
+:: UserScript [script]
+
+
+:: UserStylesheet [stylesheet]
+
+
+:: Start-Node [START] {"position":"860,384.5","size":"100,100"}
+Mom comes to the kitchen holding two cereals. Which do you choose?
+
+Cheerios Woo[[Cheerios]]
+Frosted Flakes[[Frosted Flakes]]
+
+:: Cheerios {"position":"785,534.5","size":"100,100"}
+The cheerios aren't delicious, but are healthy
+[[Cry]]
+
+:: Frosted Flakes {"position":"935,534.5","size":"100,100"}
+The frosted flakes are quite healthy but not very delicious
+
+[[Cry]]
+
+:: Cry [END] {"position":"785,684.5","size":"100,100"}
+Breakfast is over.
