@@ -18,6 +18,7 @@ public class DialogueViewer : MonoBehaviour
     [DllImport("__Internal")]
     private static extern void openPage(string url);
 
+
     private void Start()
     {
         controller = GetComponent<DialogueController>();
@@ -28,6 +29,7 @@ public class DialogueViewer : MonoBehaviour
         var curNode = controller.GetCurrentNode();
         txtMessage.text = "";
     }
+
 
     public static void KillAllChildren(UnityEngine.Transform parent)
     {

@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using static DialogueObject;
 
 public class DialogueController : MonoBehaviour
 {
 
-    [SerializeField] TextAsset twineText;
+    public TextAsset twineText;
     Dialogue curDialogue;
     Node curNode;
 

@@ -30,15 +30,15 @@ What's your favorite animal?[[Favorite animal]]
 :: How are you {"position":"880,692.5","size":"100,100"}
 I am fine, thank you. Yourself?
 
-I'm good.[[I'm good]]
+I'm good.[[Im good]]
 Not so great.[[Not so good]]
 Let's not talk about me.[[Not about me]]
 
-:: I'm good {"position":"860,834.5","size":"100,100"}
+:: Im good {"position":"860,834.5","size":"100,100"}
 Glad to hear it. What's new?
 
 Nothing much.[[Nothing much]]
-None of your business.[[None business]
+None of your business.[[None business]]
 Let's not talk about me.[[Change topic]]
 
 :: Nothing much {"position":"861,984.5","size":"100,100"}
@@ -114,7 +114,7 @@ How old are you?[[How old]]
 :: How are you 2 {"position":"793,2466.5","size":"100,100"}
 I'm pretty good thanks. How about you?
 
-I'm good.[[I'm good]]
+Im good.[[Im good]]
 Not so good.[[Not so good]]
 Let's not talk about me.[[Not about me]]
 
