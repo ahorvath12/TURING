@@ -12,23 +12,26 @@ public class GameManager : MonoBehaviour
     public TextAsset[] twineStories;
     public Text timeText;
     public GameObject mainUI;
+    public GameObject dialogueUI;
     public GameObject gameOverUI;
     public ScrollRect scroll;
     public Text dialogueText;
 
     [Header("Guess Stuff")]
+    public GameObject outcomeUI;
+    public Text outcomeText;
     public bool[] human;
     public GameObject[] guessOutcomes;
 
     private int character;
-    private float timeRemaining = 60;
+    private float timeRemaining = 45;
 
     private bool startCounting = false;
     private bool scrollDrag = false, updatedDialogue = false;
 
     void Start()
     {
-        Screen.SetResolution(561, 483, false);
+        //Screen.SetResolution(561, 483, false);
         startScreen.SetActive(true);
         GetComponent<DialogueController>().twineText = twineStories[Random.Range(0, twineStories.Length)];
     }
@@ -47,7 +50,8 @@ public class GameManager : MonoBehaviour
                 //end
                 timeText.text = "0";
                 gameOverUI.SetActive(true);
-                mainUI.GetComponent<CanvasGroup>().interactable = false;
+                dialogueUI.GetComponent<CanvasGroup>().interactable = false;
+                startCounting = false;
             }
         }
         
@@ -59,14 +63,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    //Basic Buttons
+    //Buttons
     public void StartButton()
     {
         mainUI.SetActive(true);
         gameOverUI.SetActive(false);
-        startScreen.SetActive(false); 
+        startScreen.SetActive(false);
+        dialogueUI.GetComponent<CanvasGroup>().interactable = true;
         startCounting = true;
-        timeRemaining = 60;
+        timeRemaining = 45;
         character = Random.Range(0, twineStories.Length);
         GetComponent<DialogueController>().twineText = twineStories[character];
         GetComponent<DialogueController>().InitializeDialogue();
@@ -77,7 +82,8 @@ public class GameManager : MonoBehaviour
     {
         mainUI.SetActive(false);
         gameOverUI.SetActive(false);
-        startScreen.SetActive(true); 
+        outcomeUI.SetActive(false);
+        startScreen.SetActive(true);
         startCounting = false;
         //GetComponent<DialogueController>().twineText = twineStories[Random.Range(0, twineStories.Length)];
         //timeRemaining = 60;
@@ -86,6 +92,29 @@ public class GameManager : MonoBehaviour
     public void HelpButton()
     {
 
+    }
+
+    public void GuessHuman(bool guess)
+    {
+        gameOverUI.SetActive(false);
+        outcomeUI.SetActive(true);
+
+        for(int i = 0; i < twineStories.Length; i++)
+        {
+            if (i == character)
+                guessOutcomes[i].SetActive(true);
+            else
+                guessOutcomes[i].SetActive(false);
+        }
+        
+        if (guess == human[character])
+        {
+            outcomeText.text = "Correct!";
+        }
+        else
+        {
+            outcomeText.text = "Wrong!";
+        }
     }
     
 

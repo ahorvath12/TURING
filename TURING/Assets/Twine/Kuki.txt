@@ -297,7 +297,7 @@ Where do you live?[[Where live]]
 Better get some rest.
 
 You're right.[[Right]]
-There's not time[[No time]]
+There's no time.[[No time]]
 Let's talk about something else.[[Change topic]]
 
 :: No time {"position":"1370,2792.5","size":"100,100"}
