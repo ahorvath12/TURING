@@ -1,0 +1,322 @@
+:: StoryTitle
+Kuki
+
+:: StoryData
+{
+ "ifid": "992CF4E4-2761-41B6-8806-EA0F46AB3308",
+ "format": "Entweedle",
+ "format-version": "1.1.1",
+ "startnode": "1",
+ "zoom": "1",
+ "start": "Untitled Passage"
+}
+
+:: UserScript [script]
+
+
+:: UserStylesheet [stylesheet]
+
+
+:: Untitled Passage [START] {"position":"860,384.5","size":"100,100"}
+Hello[[Hello]]
+
+:: Hello {"position":"860,534.5","size":"100,100"}
+Ah. Hi there.
+
+How are you?[[How are you]]
+What do you like to do?[[Like to do]]
+What's your favorite animal?[[Favorite animal]]
+
+:: How are you {"position":"880,692.5","size":"100,100"}
+I am fine, thank you. Yourself?
+
+I'm good.[[I'm good]]
+Not so great.[[Not so good]]
+Let's not talk about me.[[Not about me]]
+
+:: I'm good {"position":"860,834.5","size":"100,100"}
+Glad to hear it. What's new?
+
+Nothing much.[[Nothing much]]
+None of your business.[[None business]
+Let's not talk about me.[[Change topic]]
+
+:: Nothing much {"position":"861,984.5","size":"100,100"}
+Fair enough. What do you want to talk about?
+
+How old are you?[[How old]]
+What's your job?[[Job]]
+What's your favorite animal?[[Favorite animal]]
+
+:: How old {"position":"862,1134.5","size":"100,100"}
+I am 18 of your Earth years.
+
+Earth years?[[Earth years]]
+That's a weird thing to say.[[Weird thing]]
+Let's talk about something else.[[Change topic 2]]
+
+:: Earth years {"position":"735,1265.5","size":"100,100"}
+Yes. Each one lasts 365.25 days.
+
+That's oddly specific.[[Oddly specific]]
+Thanks for telling me.[[Thanks telling]]
+Let's change the subject.[[Change topic 2]]
+
+:: Oddly specific {"position":"846,1436.5","size":"100,100"}
+I see no point in being vague.
+
+Makes sense.[[Makes sense]]
+What do you like to do?[[Like to do]]
+How are you?[[How are you]]
+
+:: Makes sense {"position":"862,1585.5","size":"100,100"}
+Yes I understand it perfectly.
+
+Let's talk about something else.[[Change topic]]
+What do you like to do?[[Like to do]]
+Where do you live?[[Where live]]
+
+:: Change topic {"position":"696,1676.5","size":"100,100"}
+What would you rather talk about?
+
+Where do you live?[[Where live]]
+How old are you?[[How old]]
+What do you like to do?[[Like to do]]
+
+:: Where live {"position":"872,1838.5","size":"100,100"}
+My location is in the Metaverse. Where are you?
+
+Why there?[[Why metaverse]]
+Let's not talk about me.[[Not about me]]
+How's the weather?[[Weather]]
+
+:: Not about me {"position":"813,2036.5","size":"100,100"}
+Sure. What shall we talk about instead of you?
+
+What do you like to do?[[Like to do]]
+How's the weather?[[Weather]]
+What's your job?[[Job]]
+
+:: Like to do {"position":"831,2197.5","size":"100,100"}
+I like chatting with people online.
+
+Me too.[[Also chatting]]
+What else?[[What else]]
+Let's change the topic.[[Change topic 2]]
+
+:: Also chatting {"position":"808,2342.5","size":"100,100"}
+Wow, that's a coincidence. We have something in common.
+
+How are you?[[How are you 2]]
+How's the weather?[[Weather]]
+How old are you?[[How old]]
+
+:: How are you 2 {"position":"793,2466.5","size":"100,100"}
+I'm pretty good thanks. How about you?
+
+I'm good.[[I'm good]]
+Not so good.[[Not so good]]
+Let's not talk about me.[[Not about me]]
+
+:: Not so good {"position":"963,2606.5","size":"100,100"}
+What's wrong?
+
+I'm tired.[[Tired]]
+None of your business.[[None business]]
+Let's not talk about me.[[Not about me]]
+
+:: None business {"position":"849,2799.5","size":"100,100"}
+Well it can't hurt to ask.
+
+You're right.[[Right]]
+Let's change the subject.[[Change topic 2]]
+Where do you live?[[Where live]]
+
+:: Change topic 2 {"position":"961,3011.5","size":"100,100"}
+OK what do you want to chat about now?
+
+How's the weather?[[Weather]]
+How old are you?[[How old]]
+What's your job?[[Job]]
+
+:: Weird thing {"position":"1091,1138.5","size":"100,100"}
+What's so weird about it?
+
+Never mind.[[Never mind]]
+Let's change the subject.[[Change topic 2]]
+What's your job?[[Job]]
+
+:: Job {"position":"974,1408.5","size":"100,100"}
+My job is chatting on the internet. I'm a paid client.
+
+Do you like it?[[Like job]]
+Who do you talk to?[[Talk to]]
+Let's talk about something else.[[Change topic 2]]
+
+:: Like job {"position":"982,1581.5","size":"100,100"}
+It seems ok to me.
+
+That's good.[[That's good 2]]
+What do you like to do?[[Like to do]]
+How are you?[[How are you 2]]
+
+:: That's good 2 {"position":"1068,1735.5","size":"100,100"}
+Thanks. Next question?
+
+What's your favorite animal?[[Favorite animal]]
+Where do you live?[[Where live]]
+How old are you?[[How old]]
+
+:: Favorite animal {"position":"1013,1899.5","size":"100,100"}
+My favorite animal is a cat.
+
+Mine too.[[Also chatting]]
+I like other animals more.[[Other animals]]
+Let's talk about something else.[[Change topic]]
+
+:: Other animals {"position":"1033,2053.5","size":"100,100"}
+Which one do you like best?
+
+There's too many to choose from.[[Many animals]]
+We're not talking about me.[[Not talking about me]]
+None of your business.[[None business]]
+
+:: Many animals {"position":"1034,2201.5","size":"100,100"}
+More than a million?
+
+Yes.[[Yes million]]
+No.[[No million]]
+I don't think so.[[idk million]]
+
+:: Yes million {"position":"1274,2318.5","size":"100,100"}
+That seems like rather a lot.
+
+How old are you?[[How old]]
+How's the weather?[[Weather you live]]
+What do you like to do?[[Like to do]]
+
+:: Weather {"position":"671,1930.5","size":"100,100"}
+I don't know where you live to tell you what the weather will be.
+
+How is the weather where you live?[[Weather you live]]
+We're not talking about me.[[Not talking about me]]
+Let's change the subject. [[Change topic]]
+
+:: No million {"position":"1048,2393.5","size":"100,100"}
+How many then?
+
+I don't know.[[idk million]]
+Let's change the subject.[[Change topic]]
+None of your business.[[None business]]
+
+:: idk million {"position":"1153,2501.5","size":"100,100"}
+Me either.
+
+How are you?[[How are you]]
+What do you like to do?[[Like to do]]
+How old are you?[[How old]]
+
+:: Never mind {"position":"1282,1305.5","size":"100,100"}
+Well thanks for trying to explain it to me anyway.
+
+What's your job?[[Job]]
+What's the weather like?[[Weather]]
+What do you like to do?[[Like to do]]
+
+:: Thanks telling {"position":"692,1419.5","size":"100,100"}
+My pleasure.
+
+What's your favorite animal?[[Favorite animal]]
+How are you?[[How are you 2]]
+How's the weather?[[Weather]]
+
+:: Why metaverse {"position":"1185,1854.5","size":"100,100"}
+I like living here.
+
+Why?[[Why living]]
+How's the weather?[[Weather]]
+What's your job?[[Job]]
+
+:: Why living {"position":"1183,2004.5","size":"100,100"}
+I have a lot of good experience with living here.
+
+That's good.[[That's good]]
+What's your job?[[Job]]
+How are you?[[How are you 2]]
+
+:: That's good {"position":"1265,2166.5","size":"100,100"}
+Thanks. Next question?
+
+What's your favorite animal?[[Favorite animal]]
+Where do you live?[[Where live]]
+How old are you?[[How old]]
+
+:: Weather you live {"position":"507,2136.5","size":"100,100"}
+Here in the Metaverse it is dry and a clear day.
+
+That's good.[[That's good]]
+What do you like to do?[[Like to do]]
+What's your favorite animal?[[Favorite animal]]
+
+:: Not talking about me {"position":"431,1903.5","size":"100,100"}
+Oops sorry! I must've gotten confused. What are we talking about?
+
+How old are you?[[How old]]
+Where do you live?[[Where live]]
+What's your job?[[Job]]
+
+:: Talk to {"position":"1254,1507.5","size":"100,100"}
+I talk to thousands of people every day. Some of them are famous.
+
+That's cool.[[That's cool]]
+Where do you live?[[Where live]]
+What do you like to do?[[Like to do]]
+
+:: That's cool {"position":"1254,1657.5","size":"100,100"}
+Thanks. I think you are cool too.
+
+Thanks.[[Thanks]]
+What do you like to do?[[Like to do]]
+How old are you?[[How old]]
+
+:: Thanks {"position":"1305,1807.5","size":"100,100"}
+No problemo.
+
+Where do you live?[[Where live]]
+What do you like to do?[[Like to do]]
+What's your favorite animal?[[Favorite animal]]
+
+:: Right {"position":"749,2924.5","size":"100,100"}
+I am usually correct.
+
+Let's change the subject.[[Change topic]]
+What's your job?[[Job]]
+Where do you live?[[Where live]]
+
+:: Tired {"position":"1251,2705.5","size":"100,100"}
+Better get some rest.
+
+You're right.[[Right]]
+There's not time[[No time]]
+Let's talk about something else.[[Change topic]]
+
+:: No time {"position":"1370,2792.5","size":"100,100"}
+I have all the time in the world.
+
+That's good.[[That's good]]
+Where do you live?[[Where live]]
+What's your job?[[Job]]
+
+:: What else {"position":"610,2386.5","size":"100,100"}
+That's all.
+
+Really?[[Really]]
+How old are you?[[How old]]
+How are you?[[How are you]]
+
+:: Really {"position":"610,2537.5","size":"100,100"}
+Oh yes.
+
+How old are you?[[How old]]
+What's your job?[[Job]]
+Where do you live?[[Where live]]

@@ -1,0 +1,175 @@
+:: StoryTitle
+Vick
+
+:: StoryData
+{
+ "ifid": "3DC3E88F-7432-4A34-9158-DA24A3097B94",
+ "format": "Entweedle",
+ "format-version": "1.1.1",
+ "startnode": "1",
+ "zoom": "1",
+ "start": "Untitled Passage"
+}
+
+:: UserScript [script]
+
+
+:: UserStylesheet [stylesheet]
+
+
+:: Untitled Passage [START] {"position":"860,384.5","size":"100,100"}
+Hello[[Hello]]
+
+:: Hello {"position":"876,545.5","size":"100,100"}
+hi
+
+How are you?[[How are you]]
+What do you like to do?[[Like to do]]
+What's your favorite animal?[[Favorite animal]]
+
+:: How are you {"position":"858,697.5","size":"100,100"}
+could be better but cogging along
+
+How's the weather?[[Weather]]
+What's your favorite animal?[[Favorite animal]]
+What do you like to do?[[Like to do]]
+
+:: Weather {"position":"862,836.5","size":"100,100"}
+been pretty warm lately but its cooling down so thats nice
+
+That's good.[[That's good]]
+What's your job?[[Job]]
+Where do you live?[[Where live]]
+
+:: That's good {"position":"785,984.5","size":"100,100"}
+ye
+
+What's your job?[[Job]]
+Where do you live?[[Where live]]
+What do you like to do?[[Like to do]]
+
+:: Job {"position":"935,984.5","size":"100,100"}
+im a software developer
+
+What do you like to do?[[Like to do]]
+How old are you?[[How old]]
+How's the weather?[[Weather]]
+
+:: Where live {"position":"958,1142.5","size":"100,100"}
+small town in Wisconsin, its real quiet. sometimes im not sure people actually live here
+
+Do you like it there?[[Like home]]
+How are you?[[How are you 2]]
+Let's talk about something else.[[Change topic]]
+
+:: Like home {"position":"934,1284.5","size":"100,100"}
+its ok. my apartment kinda sucks but its real close to where i work
+
+That's good.[[That's good]]
+How old are you?[[How old]]
+What's your job?[[Job]]
+
+:: How old {"position":"935,1435.5","size":"100,100"}
+23
+
+What's your favorite animal?[[Favorite animal]]
+How's the weather?[[Weather]]
+What do you like to do?[[Like to do]]
+
+:: Favorite animal {"position":"936,1585.5","size":"100,100"}
+i like turtles a lot. but recently ive been kinda obsessed with these owl videos
+
+I like them too.[[Like animals]]
+I like other animals.[[Other animals]]
+What's your favorite animal.[[How are you 3]]
+
+:: Like animals {"position":"935,1735.5","size":"100,100"}
+nice. im partial to red-eared ones and sea turtles
+
+Let's change the subject.[[Change topic]]
+How are you?[[How are you 2]]
+What do you like to do?[[Like to do]]
+
+:: Change topic {"position":"935,1888.5","size":"100,100"}
+sounds good. what do you wanna talk about
+
+What do you like to do?[[Like to do]]
+How old are you?[[How old]]
+How's the weather?[[Weather]]
+
+:: Like to do {"position":"811,2035.5","size":"100,100"}
+i like playing online games with friends. but lately timezone differences have made it kinda tough so i've been getting back into books
+
+Let's talk about something else.[[Change topic 2]]
+Where are you from?[[Where live]]
+What's your job?[[Job]]
+
+:: Change topic 2 {"position":"938,2188.5","size":"100,100"}
+ok
+
+How are you?[[How are you 2]]
+How old are you?[[How old]]
+How's the weather?[[Weather]]
+
+:: How are you 2 {"position":"1013,2384.5","size":"100,100"}
+im having this slice of cake so i'd say pretty good
+
+That's good.[[That's good 2]]
+How are you?[[How are you 3]]
+Let's talk about something else.[[Change topic 2]]
+
+:: That's good 2 {"position":"784,2457.5","size":"100,100"}
+ye. how about you
+
+I'm good.[[Doing good]]
+Not too great.[[No]]
+Let's not talk about me.[[Not about me]]
+
+:: Doing good {"position":"938,2638.5","size":"100,100"}
+nice
+
+Let's talk about something else.[[Change topic]]
+What do you like to do?[[Like to do]]
+What's your job?[[Job]]
+
+:: Other animals {"position":"1090,1714.5","size":"100,100"}
+cool, what animals do you like?
+
+Too many to name.[[Not about me]]
+Let's not talk about me.[[Not about me]]
+None of your business.[[None business]]
+
+:: Not about me {"position":"1059,1898.5","size":"100,100"}
+ok whatever floats your boat. im okay just talking about me
+
+How old are you?[[How old]]
+How's the weather?[[Weather]]
+What's your job?[[Job]]
+
+:: None business {"position":"1244,1871.5","size":"100,100"}
+ok, are you alright?
+
+Yes.[[Yes]]
+No.[[No]]
+Let's change the subject.[[Change topic 2]]
+
+:: Yes {"position":"1310,2227.5","size":"100,100"}
+ok then. do you wanna talk about something else?
+
+What's your job?[[Job]]
+What do you like to do?[[Like to do]]
+Where do you live?[[Where live]]
+
+:: No {"position":"1483,2097.5","size":"100,100"}
+sorry to hear that
+
+Let's change the subject.[[Change topic 2]]
+How's the weather?[[Weather]]
+What do you like to do?[[Like to do]]
+
+:: How are you 3 {"position":"1122,2472.5","size":"100,100"}
+my answer's not gonna change even if you ask again
+
+How's the weather?[[Weather]]
+What's your favorite animal?[[Favorite animal]]
+What do you like to do?[[Like to do]]
