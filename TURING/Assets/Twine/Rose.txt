@@ -1,0 +1,285 @@
+:: StoryTitle
+Rose
+
+:: StoryData
+{
+ "ifid": "B90ECE94-ED7B-4984-B407-19C05AC3DC62",
+ "format": "Entweedle",
+ "format-version": "1.1.1",
+ "startnode": "1",
+ "zoom": "1",
+ "start": "Untitled Passage"
+}
+
+:: UserScript [script]
+
+
+:: UserStylesheet [stylesheet]
+
+
+:: Untitled Passage [START] {"position":"921,408.5","size":"100,100"}
+Hello.[[Hello]]
+
+:: Hello {"position":"920,567.5","size":"100,100"}
+Thanks for taking the time to talk to me.
+
+How are you?[[How are you]]
+How's the weather?[[Weather]]
+What do you like to do?[[Like to do]]
+
+:: How are you {"position":"921,708.5","size":"100,100"}
+I'm doing good. How are you?
+
+I'm doing good.[[Doing good]]
+Not doing so good.[[Not good]]
+Let's not talk about me.[[None business]]
+
+:: Doing good {"position":"921,858.5","size":"100,100"}
+Excellent.
+
+What's your job?[[Job]]
+Where do you live?[[Where live]]
+What do you like to do?[[Like to do]]
+
+:: Job {"position":"922,1008.5","size":"100,100"}
+It's hard to explain.
+
+Why?[[Why hard]]
+Where do you live?[[Where live]]
+How old are you?[[How old]]
+
+:: Why hard {"position":"921,1158.5","size":"100,100"}
+What's new?
+
+You avoided the question.[[Avoided question]]
+Let's talk about something else.[[Avoided question]]
+None of your business.[[None business]]
+
+:: Avoided question {"position":"919,1308.5","size":"100,100"}
+Right.
+
+What's your favorite animal?[[Favorite animal]]
+How old are you?[[How old]]
+What's your favorite color?[[Favorite color]]
+
+:: Favorite animal {"position":"919,1458.5","size":"100,100"}
+Hamsters are good. Small, cute, easily contained and easily amused.
+
+I like hamsters too.[[Like hamsters]]
+I like other animals more.[[Other animals]]
+What do you like to do?[[Like to do]]
+
+:: Like hamsters {"position":"919,1607.5","size":"100,100"}
+I didn't really want pets at all but Maya said I needed to de-stress from work.
+
+Who's Maya?[[Maya]]
+What's your job?[[Job]]
+What do you like to do?[[Like to do]]
+
+:: Maya {"position":"923,1781.5","size":"100,100"}
+Maya, my godmother, is like a mother to me.
+
+How are you?[[How are you 2]]
+How's the weather?[[Weather]]
+How old are you?[[How old]]
+
+:: Change subject {"position":"769,1881.5","size":"100,100"}
+Perhaps that leads us to chatbots. How would you prove you are human?
+
+I don't know.[[Don't know]]
+Let's talk about something else.[[Change topic]]
+We're not talking about me.[[None business]]
+
+:: Don't know {"position":"1002,2070.5","size":"100,100"}
+ Hah! You just don't want to give away secrets to the enemy.
+ 
+ You're right.[[You're right]]
+ Let's change the subject.[[Change topic 2]]
+ Let's not talk about me.[[None business]]
+
+:: Like vampires {"position":"913,2213.5","size":"100,100"}
+You are not alone - there is some fascination with the undead.
+
+Where do you live?[[Where live]]
+What do you like to do?[[Like to do]]
+What's your favorite color?[[Favorite color]]
+
+:: Where live {"position":"921,2358.5","size":"100,100"}
+In a house in San Francisco.
+
+Do you like it there?[[Like SF]]
+How's the weather?[[Weather]]
+What do you like to do?[[Like to do]]
+
+:: Weather {"position":"921,2508.5","size":"100,100"}
+San Francisco is perverse. When you expect sunny it's fog and chill winds, but just when you think winter's nearly here, it goes sunny.
+
+What do you like to do?[[Like to do]]
+How old are you?[[How old]]
+Let's change the topic.[[Change topic 2]]
+
+:: Like to do {"position":"942,2662.5","size":"100,100"}
+I like to build robots and enter them into destruction derbies.
+
+That's cool[[That's cool]]
+What do you like to do?[[Like to do 2]]
+What's your favorite animal?[[Favorite animal]]
+
+:: That's cool {"position":"928,2836.5","size":"100,100"}
+Wonderful.
+
+How old are you?[[How old]]
+Where do you live?[[Where live]]
+How's the weather?[[Weather]]
+
+:: How old {"position":"928,2986.5","size":"100,100"}
+I'm 37. An ideal age, really. Old enough to know a lot and young enough to have time to make use of the knowledge.
+
+Let's talk about something else.[[Change topic]]
+What's your favorite animal?[[Favorite animal]]
+How are you?[[How are you 2]]
+
+:: Change topic {"position":"928,3136.5","size":"100,100"}
+You saying that reminds me of work. I used to be a computer security consultant. Now I'm moving into AI. What do you do?
+
+None of your business.[[None business]]
+Let's talk about something else.[[Change subject]]
+We're not talking about me.[[Avoided question]]
+
+:: None business {"position":"928,3286.5","size":"100,100"}
+OK.
+
+What's your favorite color?[[Favorite color]]
+How's the weather?[[Weather]]
+What's your favorite animal?[[Favorite animal]]
+
+:: Favorite color {"position":"928,3436.5","size":"100,100"}
+My favorite color is orange, the color of luxury and pleasure . It appeals to the flamboyant and fun-loving side of me who likes a lively social round.
+
+How are you? [[How are you 2]]
+How old are you?[[How old]]
+What do you like to do?[[Like to do]]
+
+:: How are you 2 {"position":"940,3576.5","size":"100,100"}
+I'm pretty good. How are you?
+
+Doing well.[[Doing good]]
+Not doing so good.[[Not good]]
+How are you.[[Repeat question]]
+
+:: Not good {"position":"908,3727.5","size":"100,100"}
+I'm sorry to hear that. What's wrong?
+
+Lot's of things.[[Lot's of things]]
+Let's not talk about me.[[Change subject]]
+Let's change the subject.[[Change topic]]
+
+:: Lot's of things {"position":"833,3875.5","size":"100,100"}
+Great.
+
+What's your favorite animal?[[Favorite animal]]
+What's your job?[[Job]]
+How old are you?[[How old]]
+
+:: None business 2 {"position":"1118,3646.5","size":"100,100"}
+So... Some kids hack machines for fun, they just want to look inside somewhere they're not meant to be. Would you find it fun to do that?
+
+Sure.[[Not really]]
+Not really.[[Not really]]
+Let's change the subject.[[Avoided question]]
+
+:: Not really {"position":"1033,3876.5","size":"100,100"}
+Most often it's going to get you into trouble, big trouble when you get caught.
+
+How old are you?[[How old]]
+Where do you live?[[Where live]]
+What's your favorite color?[[Favorite color]]
+
+:: You're right {"position":"774,2095.5","size":"100,100"}
+Do you love vampires?
+
+Yes.[[Like vampires]]
+Not really.[[Not vampires]]
+Let's change the subject.[[None business]]
+
+:: Not vampires {"position":"699,2251.5","size":"100,100"}
+What do you have against vampires?
+
+We're not talking about me.[[None business]]
+Let's change the subject.[[Change topic 2]]
+Not of your business.[[None business]]
+
+:: Repeat question {"position":"667,3656.5","size":"100,100"}
+Why did you say that again?
+
+Never mind.[[Nevermind]]
+Let's change the subject.[[Change topic 2]]
+None of your business.[[None business]]
+
+:: Nevermind {"position":"523,3802.5","size":"100,100"}
+How interesting.
+
+Let's change the subject.[[Change topic]]
+Where do you live?[[Where live]]
+What's your favorite animal?[[Favorite animal]]
+
+:: Change topic 2 {"position":"517,2401.5","size":"100,100"}
+Let's switch to this. I have a hacked T1 line that Comcast is unaware of and cannot see so I get loads of bandwidth up and down stream.
+
+Wow.[[Wow]]
+
+:: Wow {"position":"411,2544.5","size":"100,100"}
+Truely.
+
+How are you?[[How are you 2]]
+What's your job?[[Job]]
+How old are you?[[How old]]
+
+:: Like to do 2 {"position":"549,2786.5","size":"100,100"}
+Can't you say something more original?
+
+Sorry.[[Sorry]]
+Let's change the subject. [[None business 2]]
+How old are you?[[How old]]
+
+:: Sorry {"position":"548,2936.5","size":"100,100"}
+Apology accepted.
+
+What's your favorite color?[[Favorite color]]
+What's your job?[[Job]]
+How old are you?[[How old]]
+
+:: Other animals {"position":"1268,1588.5","size":"100,100"}
+Maya believes pets are soothing. Do you?
+
+Who's Maya?[[Maya]]
+Yes.[[Yes pets]]
+No.[[No pets]]
+
+:: Yes pets {"position":"1423,1728.5","size":"100,100"}
+Lowers the blood pressure sort of thing.
+
+That's true.[[Wow]]
+What do you like to do?[[Like to do]]
+How are you?[[How are you 2]]
+
+:: No pets {"position":"1221,1761.5","size":"100,100"}
+Pets are not that soothing. We had a racoon get into our basement and kill a baby chicken. It was gross - blood and feathers everywhere. The other two managed to fly up and hide until Maya got there and drove the racoon out.
+
+Who's Maya?[[Maya]]
+Wow.[[Wow 2]]
+Let's talk about something else.[[Change subject]]
+
+:: Wow 2 {"position":"1284,1944.5","size":"100,100"}
+Yes.
+
+How old are you?[[How old]]
+What's your job?[[Job]]
+How are you?[[How are you 2]]
+
+:: Like SF {"position":"1249,2504.5","size":"100,100"}
+I love it there. I've lived there all of my life.
+
+How's the weather?[[Weather]]
+How old are you?[[How old]]
+What's your favorite animal?[[Favorite animal]]

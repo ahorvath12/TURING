@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public GameObject startScreen;
 
     [Header("Main Gameplay")]
-    public TextAsset[] twineStories;
+    public Character[] characters;
     public Text timeText;
     public GameObject mainUI;
     public GameObject dialogueUI;
@@ -20,8 +20,7 @@ public class GameManager : MonoBehaviour
     [Header("Guess Stuff")]
     public GameObject outcomeUI;
     public Text outcomeText;
-    public bool[] human;
-    public GameObject[] guessOutcomes;
+    public Text guessOutcomeUI;
 
     private int character;
     private float timeRemaining = 45;
@@ -31,9 +30,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        //Screen.SetResolution(561, 483, false);
         startScreen.SetActive(true);
-        GetComponent<DialogueController>().twineText = twineStories[Random.Range(0, twineStories.Length)];
+        GetComponent<DialogueController>().twineText = characters[Random.Range(0, characters.Length)].twineText;
     }
 
     void Update()
@@ -72,8 +70,8 @@ public class GameManager : MonoBehaviour
         dialogueUI.GetComponent<CanvasGroup>().interactable = true;
         startCounting = true;
         timeRemaining = 45;
-        character = Random.Range(0, twineStories.Length);
-        GetComponent<DialogueController>().twineText = twineStories[character];
+        character = Random.Range(0, characters.Length);
+        GetComponent<DialogueController>().twineText = characters[character].twineText;
         GetComponent<DialogueController>().InitializeDialogue();
         dialogueText.text = "";
     }
@@ -85,8 +83,6 @@ public class GameManager : MonoBehaviour
         outcomeUI.SetActive(false);
         startScreen.SetActive(true);
         startCounting = false;
-        //GetComponent<DialogueController>().twineText = twineStories[Random.Range(0, twineStories.Length)];
-        //timeRemaining = 60;
 
     }
     public void HelpButton()
@@ -99,15 +95,9 @@ public class GameManager : MonoBehaviour
         gameOverUI.SetActive(false);
         outcomeUI.SetActive(true);
 
-        for(int i = 0; i < twineStories.Length; i++)
-        {
-            if (i == character)
-                guessOutcomes[i].SetActive(true);
-            else
-                guessOutcomes[i].SetActive(false);
-        }
+        guessOutcomeUI.text = characters[character].GetInfo();
         
-        if (guess == human[character])
+        if (guess == characters[character].isHuman)
         {
             outcomeText.text = "Correct!";
         }

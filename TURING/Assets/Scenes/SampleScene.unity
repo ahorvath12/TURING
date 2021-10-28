@@ -1205,12 +1205,12 @@ GameObject:
   - component: {fileID: 346709246}
   - component: {fileID: 346709245}
   m_Layer: 5
-  m_Name: AliceDescText
+  m_Name: DescText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &346709244
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1260,7 +1260,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'A.L.I.C.E.
@@ -3675,11 +3675,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startScreen: {fileID: 1318295933}
-  twineStories:
-  - {fileID: 4900000, guid: cfef2210bb16a2446be6ab50716e4b49, type: 3}
-  - {fileID: 4900000, guid: ca01c168bb2b20d45ab35b21dd701ec9, type: 3}
-  - {fileID: 4900000, guid: 71f08094edf5a464e9ca9fcca0531e14, type: 3}
-  - {fileID: 4900000, guid: c4920f984868dbb4ca6ae8f3ffde9647, type: 3}
+  characters:
+  - {fileID: 11400000, guid: d9adf962c930fdd41b8e27b55c5c4786, type: 2}
+  - {fileID: 11400000, guid: e0c2d56b5dffa1b41abd31cc9abcd8f9, type: 2}
+  - {fileID: 11400000, guid: 49c6f63af179f1443805bfe735bace10, type: 2}
+  - {fileID: 11400000, guid: 113248b6d07fb4047a713a2afdf30401, type: 2}
+  - {fileID: 11400000, guid: 129f293b8b348dc43bc1225dceda994f, type: 2}
   timeText: {fileID: 1840584610}
   mainUI: {fileID: 1678567021}
   dialogueUI: {fileID: 1612762970}
@@ -3688,12 +3689,7 @@ MonoBehaviour:
   dialogueText: {fileID: 668804931}
   outcomeUI: {fileID: 1108566367}
   outcomeText: {fileID: 1435999778}
-  human: 00000101
-  guessOutcomes:
-  - {fileID: 346709243}
-  - {fileID: 1869581161}
-  - {fileID: 569145359}
-  - {fileID: 2021681349}
+  guessOutcomeUI: {fileID: 346709245}
 --- !u!114 &1243875797
 MonoBehaviour:
   m_ObjectHideFlags: 0

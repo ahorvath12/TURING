@@ -51,7 +51,7 @@ Let's talk about something else.[[Change topic 2]]
 :: None business {"position":"702,1142.5","size":"100,100"}
 Um ok?
 
-What's your job?[[How old]]
+What's your job?[[Job]]
 What do you like to do?[[Like to do?]]
 Where do you live?[[Where live]]
 
